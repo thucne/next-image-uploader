@@ -1,0 +1,36 @@
+{
+    "name": "react-image-uploader",
+    "version": "0.0.0",
+    "description": "Drag and drop image uploader for React.",
+    "private": false,
+    "main": "dist/index",
+    "module": "dist/index",
+    "typings": "dist/index",
+    "files": [
+        "dist",
+        "README.md"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/katyperrycbt/click-away-event-listener.git"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "del dist 2>nul & npx swc src -d dist"
+    },
+    "keywords": [
+        "react",
+        "components",
+        "nextjs",
+        "click away event listener"
+    ],
+    "author": "Tallis",
+    "license": "ISC",
+    "publishConfig": {
+        "registry": "https://registry.npmjs.org/"
+    },
+    "devDependencies": {
+        "@swc/cli": "^0.1.57",
+        "@swc/core": "^1.2.245"
+    }
+}
