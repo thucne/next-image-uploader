@@ -383,18 +383,6 @@ const draggingStyle = {
     height: "100%",
 }
 
-const windowDragAndDropStyle = {
-    position: "fixed",
-    top: 0,
-    left: 0,
-    width: "100%",
-    height: "100%",
-    zIndex: 9999,
-    display: "flex",
-    justifyContent: "center",
-    alignItems: "center",
-}
-
 const dragAndDropStyle = {
     position: "absolute",
     top: 0,
