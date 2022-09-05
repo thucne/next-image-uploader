@@ -1,17 +1,17 @@
-## React Image Uploader
+## Nextjs Image Uploader
 
 Drag and drop image uploader for React.
 
 ### Installation
 
 ```bash
-pnpm add react-image-uploader
+pnpm add next-image-uploader
 ```
 
 or
 
 ```bash
-yarn add react-image-uploader
+yarn add next-image-uploader
 ```
 
 ### Usage

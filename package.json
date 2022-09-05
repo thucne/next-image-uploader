@@ -1,5 +1,5 @@
 {
-    "name": "react-image-uploader",
+    "name": "next-image-uploader",
     "version": "0.0.0",
     "description": "Drag and drop image uploader for React.",
     "private": false,
@@ -12,7 +12,7 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/katyperrycbt/click-away-event-listener.git"
+        "url": "https://github.com/katyperrycbt/next-image-uploader.git"
     },
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
@@ -20,9 +20,8 @@
     },
     "keywords": [
         "react",
-        "components",
-        "nextjs",
-        "click away event listener"
+        "image uploader",
+        "nextjs"
     ],
     "author": "Tallis",
     "license": "ISC",
