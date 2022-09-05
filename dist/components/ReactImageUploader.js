@@ -527,7 +527,7 @@ var UploadComponent = function(param) {
             return setShowHoverIcon(false);
         } : null
     }, /*#__PURE__*/ _react.default.createElement("style", {
-        jsx: true
+        jsx: "true"
     }, "\n                    .blink {\n                        animation: blinker 1s linear infinite;\n                      }\n                      \n                    @keyframes blinker {\n                        50% {\n                          opacity: 0;\n                        }\n                    }\n                "), hoverIcon && /*#__PURE__*/ _react.default.createElement("span", {
         style: _objectSpreadProps(_objectSpread({}, hoverIconStyle), {
             opacity: showHoverIcon ? 1 : 0

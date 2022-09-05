@@ -211,7 +211,7 @@ const UploadComponent = ({
             onMouseEnter={hoverIcon && !dragging ? () => setShowHoverIcon(true) : null}
             onMouseLeave={hoverIcon && !dragging ? () => setShowHoverIcon(false) : null}
         >
-            <style jsx>
+            <style jsx="true">
                 {`
                     .blink {
                         animation: blinker 1s linear infinite;

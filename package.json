@@ -1,6 +1,6 @@
 {
     "name": "next-image-uploader",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "Drag and drop image uploader for React.",
     "private": false,
     "main": "dist/index",
