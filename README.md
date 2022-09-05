@@ -1,6 +1,8 @@
 ## Nextjs Image Uploader
 
-Drag and drop image uploader for React.
+Drag and drop image uploader for Nextjs.
+
+![Demo](https://res.cloudinary.com/katyperrycbt/image/upload/v1662363644/Dashboard-and-3-more-pages-Personal-Microsoft_-Edge-2022-09-05-14-18-40-_online-video-cutter.com__yxdggp.gif)
 
 ### Installation
 
