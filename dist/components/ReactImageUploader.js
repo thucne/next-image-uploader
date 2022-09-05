@@ -277,7 +277,7 @@ var __generator = ((void 0) && (void 0).__generator) || function(thisArg, body) 
     }
 };
 var UploadComponent = function(param) {
-    var photo = param.photo, setPhoto = param.setPhoto, alt = param.alt, objectFit = param.objectFit, setFileName = param.setFileName, setSize = param.setSize, isFormik = param.isFormik, getFileSize = param.getFileSize, disabled = param.disabled, inputRef = param.inputRef, className = param.className, hoverIcon = param.hoverIcon, _dropScope = param.dropScope, dropScope = _dropScope === void 0 ? "element" : _dropScope, _onError = param.onError, onError = _onError === void 0 ? function() {} : _onError;
+    var photo = param.photo, setPhoto = param.setPhoto, alt = param.alt, objectFit = param.objectFit, setFileName = param.setFileName, setSize = param.setSize, isFormik = param.isFormik, getFileSize = param.getFileSize, disabled = param.disabled, inputRef = param.inputRef, className = param.className, hoverIcon = param.hoverIcon, _dropScope = param.dropScope, dropScope = _dropScope === void 0 ? "element" : _dropScope, _onError = param.onError, onError = _onError === void 0 ? function() {} : _onError, onDraggingImage = param.onDraggingImage;
     var ref = _slicedToArray((0, _react.useState)(false), 2), dragging = ref[0], setDragging = ref[1];
     var ref1 = _slicedToArray((0, _react.useState)(false), 2), loadingImage = ref1[0], setLoadingImage = ref1[1];
     var ref2 = _slicedToArray((0, _react.useState)(""), 2), localPhoto = ref2[0], setLocalPhoto = ref2[1];
@@ -550,7 +550,7 @@ var UploadComponent = function(param) {
             height: "50%"
         }
     }, /*#__PURE__*/ _react.default.createElement(_image.default, {
-        src: "https://res.cloudinary.com/katyperrycbt/image/upload/v1662305403/f8aevquseg2l7lowo8kl.gif",
+        src: onDraggingImage || "https://res.cloudinary.com/katyperrycbt/image/upload/v1662305403/f8aevquseg2l7lowo8kl.gif",
         alt: "launching",
         layout: "fill",
         quality: 100,
@@ -601,7 +601,7 @@ var UploadComponent = function(param) {
             position: "relative"
         }
     }, /*#__PURE__*/ _react.default.createElement(_image.default, {
-        src: "https://res.cloudinary.com/katyperrycbt/image/upload/v1662305403/f8aevquseg2l7lowo8kl.gif",
+        src: onDraggingImage || "https://res.cloudinary.com/katyperrycbt/image/upload/v1662305403/f8aevquseg2l7lowo8kl.gif",
         alt: "launching",
         layout: "fill",
         quality: 100,

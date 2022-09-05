@@ -10,6 +10,7 @@ const UploadComponent = ({
     className, hoverIcon,
     dropScope = "element",
     onError = () => { },
+    onDraggingImage,
 }) => {
     const [dragging, setDragging] = useState(false);
     const [loadingImage, setLoadingImage] = useState(false);
@@ -251,7 +252,7 @@ const UploadComponent = ({
                             height: "50%",
                         }}>
                             <Image
-                                src={"https://res.cloudinary.com/katyperrycbt/image/upload/v1662305403/f8aevquseg2l7lowo8kl.gif"}
+                                src={onDraggingImage || "https://res.cloudinary.com/katyperrycbt/image/upload/v1662305403/f8aevquseg2l7lowo8kl.gif"}
                                 alt={"launching"}
                                 layout="fill"
                                 quality={100}
@@ -320,7 +321,7 @@ const UploadComponent = ({
 
                     <div style={{ width: "100%", height: "100%", position: "relative" }}>
                         <Image
-                            src={"https://res.cloudinary.com/katyperrycbt/image/upload/v1662305403/f8aevquseg2l7lowo8kl.gif"}
+                            src={onDraggingImage || "https://res.cloudinary.com/katyperrycbt/image/upload/v1662305403/f8aevquseg2l7lowo8kl.gif"}
                             alt={"launching"}
                             layout="fill"
                             quality={100}
